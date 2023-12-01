@@ -1,0 +1,198 @@
+.navFooterWrpper{
+    padding: 10px;
+    width: 100%;
+    color:#aaaaaa;
+    font-weight: bold;
+    font-size: 12px;
+background-color:#222327;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: fixed;
+    bottom: -15px;
+    z-index: 8;
+}
+.navFooterWrpper li{
+    color:#aaaaaa;
+    font-weight: bold;
+    font-size: 12px;  
+}
+.navFooterWrpper li:hover{
+    color:white;
+    cursor: pointer;
+    
+}
+.navfix{
+    box-sizing: border-box;
+    position: static;
+    padding: 10px;
+    width: 100%;
+    color:#aaaaaa;
+    font-weight: bold;
+    font-size: 12px;
+background-color:#222327;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+      bottom: -15px;
+    z-index: 8;
+}
+.navfix li{
+    color:#aaaaaa;
+    font-weight: bold;
+    font-size: 12px;   
+}
+.navfix li:hover{
+    color:white;  
+    cursor: pointer;
+}
+.new{
+    height: 0;
+    width: 150px;
+    position: fixed;
+    z-index: 1;
+    bottom: 900px;
+    left: 20px;
+    background-color: #111;
+    /* overflow-x: hidden; */
+    transition: 0.5s;
+align-items: center;
+    list-style: none;
+    /* display: flex; */
+   flex-wrap: wrap;
+    justify-content: space-around;  
+}
+.link{
+    height: 0;
+    width: 150px;
+    position: fixed;
+    z-index: 1;
+    bottom: 0;
+    left: 20px;
+    background-color: #111;
+    /* overflow-x: hidden; */
+    transition: 0.5s;
+align-items: center;
+    list-style: none;
+    /* display: flex; */
+   flex-wrap: wrap;
+    justify-content: space-around;
+    @media screen and (max-width: 1250px){
+        width:60%;
+        
+    }
+}
+.link li{
+      padding-bottom: 20px;
+    padding-top: 20px;
+    font-weight: bold;
+    @media screen and (max-width: 1250px){
+      padding-top: 2%;
+        
+ 
+}
+}
+.openBtn{
+        font-weight: bold;
+    font-size: small;
+    padding-right: 5px;
+    cursor: pointer;
+}
+.closeBtn{
+        font-size: 40px;
+    padding-right: 9px;
+    font-weight: bold;
+    font-size: small;
+       cursor: pointer;
+}
+/* ###################################################route########################## */
+
+.cwindow{
+    fill:blue;
+    display: none;
+   text-decoration: none;
+   position: absolute;
+  top:15px;
+right:47px;
+  z-index: 4;
+  }
+  .owindow{
+    text-decoration: none;
+    color:#aaaaaa;
+ 
+  }
+  /* #########################################responsiv footer menu###################################### */
+  .Add1{
+    display: none;
+    @media screen and (max-width: 1250px){
+        width:100%;
+        display: block;
+           }
+  }
+  .remove1{
+    @media screen and (max-width: 1250px){
+               display: none;
+           }
+  }
+  .Add2{
+    display: none;
+    @media screen and (max-width: 950px){
+        width:100%;
+        display: block;
+           }
+  }
+  .remove2{
+    @media screen and (max-width: 950px){
+               display: none;
+           }
+  }
+  .Add3{
+    display: none;
+    @media screen and (max-width: 650px){
+        width:100%;
+        display: block;
+           }
+  }
+  .remove3{
+    @media screen and (max-width: 650px){
+               display: none;
+           }
+  }
+  .Add4{
+    display: none;
+    @media screen and (max-width: 550px){
+        width:100%;
+        display: block;
+           }
+  }
+  .remove4{
+    @media screen and (max-width: 550px){
+               display: none;
+           }
+  }
+  .Add5{
+    display: none;
+    @media screen and (max-width: 450px){
+        width:100%;
+        display: block;
+           }
+  }
+  .remove5{
+    @media screen and (max-width: 450px){
+               display: none;
+           }
+  }
+  .Add6{
+    display: none;
+    @media screen and (max-width: 350px){
+        width:100%;
+        display: block;
+           }
+  }
+  .remove6{
+    @media screen and (max-width: 350px){
+               display: none;
+           }
+  }

@@ -1,0 +1,40 @@
+.background{
+    background: white;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.background h1{
+    color:#37383e;
+     text-align: center;
+    font-weight: bold;
+    font-size: 28px;
+    padding-bottom: 30px;
+
+}
+.box {
+    width:93%;
+    height: 75%;
+      box-shadow: 0px 0px 6px 0px rgba(216, 221, 212, 0.78);
+     padding: 10px;
+    text-align: center;
+    color:whitesmoke;
+     color:#37383e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box p{
+    color: #37383e;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: bold;
+
+}
+.cleanbackgeround{
+    height: 100px;
+    width: 100%;
+    background: white;
+}

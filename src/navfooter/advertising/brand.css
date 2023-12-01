@@ -1,0 +1,18 @@
+.brand-titr{
+     margin-top: 700px;  
+     text-align: center;
+     font-size: 25px;
+     font-weight: bold;
+}
+.brandlogo{
+    display: flex;
+  justify-content: center;
+ align-items: center;
+       width: 60%;
+    margin-right: 20%;
+  
+}
+.brandlogo img{
+         height: 100px;
+     width: 100px;
+ }
